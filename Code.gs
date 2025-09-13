@@ -1,5 +1,4 @@
 /**
- * Form Limiter Add-on - Main Script
  * Phase 1: Modernized with better error handling and validation
  */
 
