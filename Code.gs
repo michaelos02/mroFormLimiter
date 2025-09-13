@@ -28,6 +28,7 @@ function showSidebar() {
  * @returns {Object} Current settings object
  */
 function getSettings() {
+  console.log("got to loading")
   try {
     const props = PropertiesService.getScriptProperties().getProperties();
     Logger.log('Retrieved settings: ' + JSON.stringify(props));

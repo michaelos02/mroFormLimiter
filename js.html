@@ -1,5 +1,5 @@
-<script>
-// Simple and clean JavaScript - no overcomplicated stuff!
+  <script>
+  // Simple and clean JavaScript - no overcomplicated stuff!
 
 document.addEventListener('DOMContentLoaded', function() {
   loadSettings();
@@ -181,9 +181,11 @@ function showMessage(text, isError) {
   if (isError) {
     messageDiv.style.backgroundColor = '#fce8e6';
     messageDiv.style.color = '#d93025';
+    messageDiv.style.border = '1px solid #f9ab00';
   } else {
     messageDiv.style.backgroundColor = '#e6f4ea';
     messageDiv.style.color = '#137333';
+    messageDiv.style.border = '1px solid #c8e6c9';
   }
   
   // Auto-hide success messages
@@ -211,4 +213,4 @@ function clearErrors(elementIds = ['responseLimitError', 'closingDateError', 'cl
     document.getElementById(id).style.display = 'none';
   });
 }
-</script>
+  </script>
